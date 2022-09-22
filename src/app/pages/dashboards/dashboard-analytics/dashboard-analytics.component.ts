@@ -1,12 +1,14 @@
 import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import icGroup from '@iconify/icons-ic/twotone-group';
-import icPageView from '@iconify/icons-ic/twotone-pageview';
 import icCloudOff from '@iconify/icons-ic/twotone-cloud-off';
 import icTimer from '@iconify/icons-ic/twotone-timer';
+import icText from '@iconify/icons-ic/outline-text-snippet';
+
 import { defaultChartOptions } from '../../../../@vex/utils/default-chart-options';
 import { Order, tableSalesData } from '../../../../static-data/table-sales-data';
 import { TableColumn } from '../../../../@vex/interfaces/table-column.interface';
 import icMoreVert from '@iconify/icons-ic/twotone-more-vert';
+import icMedication from "@iconify/icons-ic/twotone-medication";
 
 @Component({
   selector: 'vex-dashboard-analytics',
@@ -79,9 +81,9 @@ export class DashboardAnalyticsComponent implements OnInit {
     },
     colors: ['#ff9800']
   });
-
+  icText = icText;
   icGroup = icGroup;
-  icPageView = icPageView;
+  icMedication = icMedication;
   icCloudOff = icCloudOff;
   icTimer = icTimer;
   icMoreVert = icMoreVert;
