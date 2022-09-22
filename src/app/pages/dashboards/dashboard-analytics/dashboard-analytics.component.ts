@@ -22,12 +22,12 @@ export class DashboardAnalyticsComponent implements OnInit {
       type: 'badge'
     },
     {
-      label: 'PRODUCT',
+      label: 'Produits',
       property: 'name',
       type: 'text'
     },
     {
-      label: '$ PRICE',
+      label: 'DZD Performance',
       property: 'price',
       type: 'text',
       cssClasses: ['font-medium']
@@ -48,11 +48,11 @@ export class DashboardAnalyticsComponent implements OnInit {
 
   userSessionsSeries: ApexAxisChartSeries = [
     {
-      name: 'Users',
+      name: 'Pédiatrie',
       data: [10, 50, 26, 50, 38, 60, 50, 25, 61, 80, 40, 60]
     },
     {
-      name: 'Sessions',
+      name: 'Gynécologie',
       data: [5, 21, 42, 70, 41, 20, 35, 50, 10, 15, 30, 50]
     },
   ];

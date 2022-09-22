@@ -18,16 +18,16 @@
                                [series]="pageViewsSeries"
                                iconClass="text-primary bg-primary-light"
                                gdColumn.lt-sm="1"
-                               label="Page Views"
-                               value="92.4k"></vex-widget-quick-line-chart>
+                               label="Médicament prescrits"
+                               value="632"></vex-widget-quick-line-chart>
 
   <vex-widget-quick-line-chart [icon]="icGroup"
                                [options]="uniqueUsersOptions"
                                [series]="uniqueUsersSeries"
                                iconClass="text-orange bg-orange-light"
                                gdColumn.lt-sm="1"
-                               label="Unique Users"
-                               value="67.2k"></vex-widget-quick-line-chart>
+                               label="Ordonnance prescrits"
+                               value="128"></vex-widget-quick-line-chart>
 
   <vex-widget-large-chart [series]="userSessionsSeries"
                           gdColumn="1 / 3"
@@ -44,28 +44,28 @@
                                  [icon]="icGroup"
                                  iconClass="text-primary bg-primary-light"
                                  gdColumn.lt-sm="1"
-                                 label="Users"
-                                 value="67.4k"></vex-widget-quick-value-center>
+                                 label="Médecins"
+                                 value="102"></vex-widget-quick-value-center>
   <vex-widget-quick-value-center [change]="-23.7"
                                  [icon]="icPageView"
                                  iconClass="text-orange bg-orange-light"
                                  gdColumn.lt-sm="1"
                                  helpText="Additional information"
-                                 label="Sessions"
+                                 label="Produits promus vus"
                                  value="96.2k"></vex-widget-quick-value-center>
   <vex-widget-quick-value-center [change]="23.2"
                                  [icon]="icCloudOff"
                                  iconClass="text-deep-orange bg-deep-orange-light"
                                  gdColumn.lt-sm="1"
                                  helpText="Explain something"
-                                 label="Bounce Rate"
+                                 label="Clics"
                                  value="6.92%"></vex-widget-quick-value-center>
   <vex-widget-quick-value-center [change]="34.5"
                                  [icon]="icTimer"
                                  iconClass="text-teal bg-teal-light"
                                  gdColumn.lt-sm="1"
-                                 label="Session Duration"
-                                 value="16m 48s"></vex-widget-quick-value-center>
+                                 label="pour la prochain événement"
+                                 value="2 jours"></vex-widget-quick-value-center>
 
   <vex-widget-large-goal-chart [series]="salesSeries"
                                gdColumn="1 / -1"
